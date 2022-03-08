@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Set the app background color and the text color with Tailwind */
+@layer base {
+  body {
+    @apply bg-[#06202a] text-gray-300;
+  }
+}
